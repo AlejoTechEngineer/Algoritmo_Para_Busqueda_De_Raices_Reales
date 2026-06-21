@@ -37,6 +37,22 @@ La convergencia es de orden cuadrático cuando la derivada en la raíz es distin
 
 ---
 
+## Arquitectura
+
+```mermaid
+flowchart TD
+    A[newton.py / newton_py.ipynb] --> B[definir f-x y f_prima-x]
+    B --> C{criterio_parada - error_relativo}
+    C -->|No converge| D[x_n+1 = x_n - f-x_n / f_prima-x_n]
+    D --> C
+    C -->|Converge| E[guardar_iteraciones]
+    E --> F[(resultados_newton_raphson.csv)]
+    E --> G[(resultados_newton_sistema.csv)]
+    F --> H[convergencia_newton.png - matplotlib]
+    G --> H
+    H --> I[Analisis de convergencia cuadratica]
+```
+
 ## Autor
 
 **Alejandro De Mendoza**  
