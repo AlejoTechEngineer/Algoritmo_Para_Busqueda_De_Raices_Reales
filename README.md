@@ -1,3 +1,5 @@
+<div align="center">
+
 # Búsqueda de Raíces Reales — Métodos Numéricos Iterativos
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -7,6 +9,10 @@
 > Búsqueda de raíces de funciones reales con el método de Newton-Raphson: análisis de convergencia y criterios de parada.
 
 ## Descripción
+
+</div>
+
+---
 
 Implementación y análisis del **método de Newton-Raphson** para búsqueda de raíces reales. Se estudia la convergencia cuadrática del método, se implementan criterios de parada por error relativo y se comparan las tasas de convergencia para diferentes funciones y puntos de partida iniciales.
 
@@ -28,3 +34,12 @@ La convergencia es de orden cuadrático cuando la derivada en la raíz es distin
 
 **Asignatura:** Métodos Numéricos · **Institución:** Ingeniería Informática
 **Autor:** Alejandro De Mendoza — Ingeniero Informático · Especialista Ingeniería de Software
+
+---
+
+## Autor
+
+**Alejandro De Mendoza**  
+Ingeniero Informático · Especialista en IA · Especialista en Ingeniería de Software · Máster en Arquitectura de Software
+
+[![GitHub](https://img.shields.io/badge/GitHub-AlejoTechEngineer-181717?style=for-the-badge&logo=github)](https://github.com/AlejoTechEngineer)
